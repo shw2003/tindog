@@ -1,0 +1,204 @@
+body{
+    font-family: "Montserrat";
+}
+
+
+#title{
+    background-color:#ff4c68;
+    color: #ffff;
+    font-weight: bold;
+    padding-bottom: 10%;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    padding: 0 0 20px;
+    font-size: 3.5rem;
+}
+
+h2{
+    font-family:'Oswald', sans-serif ;
+    font-weight: bolder;
+    line-height: 1;
+    font-size: 3.5rem;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family:'Oswald', sans-serif ;
+    font-weight: bolder;
+    
+    
+    padding-bottom: 3%;
+    
+}
+
+.container-fluid{
+    padding: 2% 5% ;
+    
+}
+
+p{
+    color: #8f8f8f;
+    font-family:'Oswald', sans-serif ;
+}
+
+/*navigation bar*/
+
+.navbar-brand{
+    font-family:'Oswald', sans-serif ;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+ font: 1.2rem;
+ font-family:'Oswald', sans-serif ;
+}
+
+
+/*image*/
+
+.title-image{
+    width:25%;
+    transform:rotate(25deg);
+    position: absolute;
+    right: 22%;
+    
+}
+
+.btn{
+    margin-right: 35px;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+/*features*/
+
+#features{
+    padding: 7% 12% 10%;
+    background-color: #ffff;
+    position: relative;
+    z-index: 1;
+    
+    
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+
+    
+}
+
+.icon:hover{
+    color:#ff4c68;
+}
+
+
+/*testimonials*/
+
+#testimonials{
+    padding: 7% 15%;
+    background-color: #ef8172;
+    text-align: center;
+    color: #ffff;
+
+}
+
+.testimonial-image{
+    width:20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+/*press*/
+
+#press{
+    background-color:#ef8172 ;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width:15%;
+    margin:20px 20px 50px;
+}
+
+
+
+
+/* pricing*/
+
+#pricing{
+    background-color:#ffff;
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+
+/*media*/
+@media(max-width:1028px)
+{
+
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        position:static;
+        transform: rotate(0);
+        margin-left: 25%;
+        margin-top: 5%;
+        width: 55%;
+        
+
+    }
+}
+
+
+/*call to action*/
+
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    color: #ffff;
+    padding: 10%;
+
+    
+
+}
+
+.call{
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: bolder;
+}
+
+
+#footer{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.fabs{
+    margin:7% 6px 1%;
+
+}
